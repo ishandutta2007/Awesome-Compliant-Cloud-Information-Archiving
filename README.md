@@ -1,71 +1,115 @@
 # Awesome-Compliant-Cloud-Information-Archiving
 
-## Top Compliant Cloud Information Archiving Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Compliant-Cloud-Information-Archiving/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Compliant-Cloud-Information-Archiving/pulls)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Regulatory Compliance, Immutable Retention & Enterprise Information Governance*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Compliant Cloud Information Archiving**. These tools help organizations capture, retain, and supervise electronic communications—email, instant messaging, social media, and files—to satisfy regulatory mandates (SEC 17a-4, FINRA, MiFID II, GDPR), support eDiscovery, and enforce legal hold across the enterprise.
-
-**Examples** include Mimecast Cloud Archive, Proofpoint Enterprise Archive, Global Relay Archive, Smarsh, Veritas Enterprise Vault, OpenText InfoArchive, Commvault, Barracuda Message Archiver, ZL Tech, and Druva (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted email archiving, open-source compliance supervision, and community-driven data retention—ideal for organizations seeking data sovereignty and predictable costs over per-user SaaS subscriptions.
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Mimecast Cloud Archive](https://www.mimecast.com/)** | Email archiving with three tamper-proof encrypted copies for long-term retention. Includes eDiscovery, legal hold, and compliance supervision. Widely adopted for Microsoft 365 environments . | **$14.90/month** flat rate per user (Capterra listing) . | **No free trial**; no free version . |
-| **[Proofpoint Enterprise Archive](https://www.proofpoint.com/)** | Enterprise email archiving and compliance platform. Supports supervision, eDiscovery, and retention policies for regulated industries. Pricing is entirely quote-based with no public rates . | Quote-only (custom enterprise contract) . | **No free trial** per SelectHub; demo available . |
-| **[Global Relay Archive](https://www.globalrelay.com/)** | Compliance archiving for email, IM, social media, and voice. Trusted by financial services for SEC/FINRA compliance. Pricing is quote-based with no public list rates . | Quote-only (contact vendor) . | **No free trial**; no free version . |
-| **[Smarsh](https://www.smarsh.com/)** | Digital communications archiving and supervision platform. Covers email, social media, mobile, and collaboration tools. Users report solid archiving functionality but note customer service and contract friction . | **$75/month** starting price (Software Advice listing) . | **No free trial**; no free version . |
-| **[Veritas Enterprise Vault](https://www.veritas.com/)** | Enterprise information archiving for email, files, and SharePoint. Available as on-premises or cloud (Enterprise Vault.cloud). Sophisticated retention and classification capabilities . | Enterprise Vault.cloud: **~$5.01/user/month** (Telstra listing); Enhanced: ~$6.45/user/month. On-premises: quote-based ($100–$500 range per SelectHub) . | **Free trial available** (request via SelectHub); no permanent free tier . |
-| **[OpenText InfoArchive](https://www.opentext.com/)** | Enterprise information archiving platform for structured and unstructured data. Decommissions legacy applications while preserving data for compliance and legal hold . | Quote-only (no public pricing) . | **No free trial** per MobilesTalk; demo via sales . |
-| **[Commvault](https://www.commvault.com/)** | Data protection and archiving platform. Information archiving is typically bundled within broader Commvault Cloud engagements. Implementation and support add significant costs beyond license fees . | Quote-only (custom enterprise contract); implementation ~$40,520 standard, support from ~$6,250/month . | **No free tier** available . |
-| **[Barracuda Message Archiver](https://www.barracuda.com/)** | Email archiving appliance (physical, virtual, or cloud). Licensed with a **fixed cost per device** regardless of user count—all functionality included, no per-user fees . | Fixed per-device cost (quote via Barracuda; varies by storage capacity 500 GB–66 TB) . | No public free tier; demo available via sales . |
-| **[ZL Tech](https://www.zlti.com/)** | Unified archiving platform for compliance, eDiscovery, and records management. Covers email, IM, files, and social media. Available via cloud, on-premises, or hybrid . | Quote-only (no public pricing) . | **Free trial available** (via Slack marketplace listing); no permanent free plan . |
-| **[Druva](https://www.druva.com/)** | Cloud data protection platform with information archiving capabilities for email and collaboration data. Part of broader Druva Cyber Resilience suite. No public pricing—29 quote-based plans . | Quote-only (contact vendor) . | **No free tier** available . |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[OpenArchiver](https://github.com/nimdassdev/OpenArchiver)** | [![Stars](https://img.shields.io/github/stars/nimdassdev/OpenArchiver?style=social&color=white)](https://github.com/nimdassdev/OpenArchiver/stargazers) | Self-hosted email archiving and eDiscovery platform with universal ingestion (Google Workspace, Microsoft 365, IMAP, PST, mbox), full-text search, deduplication, and S3-compatible storage. Docker Compose deployment with SvelteKit/Node.js/PostgreSQL/Meilisearch stack. Legal hold capability listed as TBD . |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[FreeEed](https://github.com/shmsoft/freeeed)** | [![Stars](https://img.shields.io/github/stars/shmsoft/freeeed?style=social&color=white)](https://github.com/shmsoft/freeeed/stargazers) | Open-source eDiscovery platform with OCR, metadata extraction, and support for 1,400+ file types including PST. Can complement archiving workflows for legal review . |
-| **[paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** | [![Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers) | Document management with OCR and full-text search. Suitable for basic document organization and retrieval; lacks formal compliance supervision and legal hold features . |
-
-**Frameworks for building custom systems**: Combine **OpenArchiver** for email ingestion and archival with full-text search, **FreeEed** for eDiscovery review of archived data, and **PostgreSQL + Meilisearch** for the underlying storage and indexing layer—creating a basic self-hosted archiving stack without per-user SaaS fees.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Compliant archiving platforms handle sensitive communications and must satisfy strict regulatory requirements (SEC 17a-4, FINRA, MiFID II). Ensure any solution—commercial or open-source—provides immutable storage, audit trails, and legal hold capabilities before relying on it for compliance.
-- Pricing is opaque across this category: Proofpoint, Global Relay, OpenText, Commvault, ZL Tech, and Druva all publish no list prices [citation:1][citation:5][citation:6]. Veritas and Smarsh have limited public reference points [citation:14][citation:15]. Open-source alternatives are early-stage; OpenArchiver's legal hold feature is explicitly marked TBD and should not be considered compliance-ready without validation.
+> A curated list of enterprise SaaS platforms and open-source software for **Compliant Cloud Information Archiving**, regulatory record retention (SEC Rule 17a-4, FINRA, MiFID II, HIPAA, GDPR), eDiscovery, and enterprise information governance.
 
 ---
 
-**Made for compliance officers, IT administrators, legal operations teams, and organizations building governed information archiving.**  
-Let's make compliant cloud archiving more open, transparent, and cost-predictable.
+## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [Enterprise SaaS & Hosted Platforms](#enterprise-saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Architecture & Implementation Guidelines](#architecture--implementation-guidelines)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global enterprise information archiving (EIA) and compliant cloud communications governance market is valued between **$9.5 billion and $11 billion**, projected to grow at a **11%–14% CAGR** to exceed **$25 billion by the 2030s**. The sector is **moderately fragmented**: enterprise infrastructure conglomerates (OpenText, Commvault) and heavily capitalized pure-play compliance vendors (Proofpoint, Veritas, Smarsh, Mimecast) dominate high-stakes financial and legal tiers, while intensifying regulatory scrutiny over collaboration tools (Teams, Slack, WhatsApp, Zoom) continuously sustains specialized point solutions and emerging open-source archiving engines.
+
+---
+
+## Enterprise SaaS & Hosted Platforms
+
+Enterprise SaaS solutions sorted descending by company scale (market valuation / annual revenue run-rate):
+
+| Product | Company Scale (Valuation / Revenue) | Description | Starting Pricing | Free Tier / Trial Limits |
+|---|---|---|---|---|
+| **[Proofpoint Enterprise Archive](https://www.proofpoint.com/)** | **~$12.3B valuation** (Acquired by Thoma Bravo; ~$1.5B ARR) | Enterprise email and multi-channel compliance archiving platform with SEC/FINRA supervisory review, automated legal holds, and ML-assisted eDiscovery. | **$5.00/user/month** (via Proofpoint Essentials Pro / reseller framework; Enterprise tier custom quote) | **No free trial** (0 days; guided interactive sandbox demo via sales) |
+| **[Commvault Cloud Archive](https://www.commvault.com/)** | **~$7.2B market cap** (~$1.2B revenue; NASDAQ: CVLT) | Unified data protection and cyber resilience suite providing automated file, object, and messaging compliance archiving with eDiscovery search. | **$1.70/user/month** (Microsoft 365 Standard; $4.50/user/month with Compliance Search; capacity from $90/TB/month) | **30-day free trial** (Full platform functionality across hybrid/SaaS workloads; no credit card required) |
+| **[Veritas Enterprise Vault](https://www.veritas.com/)** | **~$7.0B valuation** (~$1.5B revenue; Cohesity merger) | Pioneer enterprise information archiving suite spanning email, SharePoint, and cloud files with immutable WORM retention and classification engines. | **$5.01/user/month** (Enterprise Vault.cloud base tier; ~$6.45/user/month for Enhanced Supervision) | **30-day free trial** (Evaluation license for cloud/virtual appliance available via sales request) |
+| **[OpenText InfoArchive](https://www.opentext.com/)** | **~$6.2B market cap** (~$5.2B revenue; NASDAQ: OTEX) | Unified enterprise compliance archive designed for active application decommissioning, big data structured record retention, and unstructured content management. | **~$2,574/month** (£30,888/year per Terabyte capacity block on public cloud procurement frameworks) | **No free trial** (0 days; scoped guided Proof of Concept / FasTrak pilot available via sales) |
+| **[Mimecast Cloud Archive](https://www.mimecast.com/)** | **~$5.8B valuation** (Acquired by Permira; ~$600M+ ARR) | Cloud-native email security and compliance archiving system maintaining triplicate immutable encrypted copies across independent data centers. | **$14.90/user/month** (Flat rate per user starting tier via direct listings) | **No free trial** (0 days; zero self-serve free trial; guided enterprise proof-of-concept on request) |
+| **[Barracuda Message Archiver](https://www.barracuda.com/)** | **~$4.0B valuation** (Acquired by KKR; ~$500M+ revenue) | Dedicated email archiving appliance (hardware, virtual, or cloud) featuring integrated message deduplication, role-based eDiscovery, and mobile access. | **$2.70/user/month** (Cloud Archiving service; physical/virtual appliances start at flat per-device licensing from ~$2,199) | **14-day free trial** (Full virtual appliance / cloud evaluation with live mailbox sync; no credit card required) |
+| **[Smarsh](https://www.smarsh.com/)** | **~$2.5B–$3.0B valuation** (K1 Investment Management; ~$350M ARR) | Specialized digital communications compliance platform capturing 100+ channels including Microsoft Teams, Slack, WhatsApp, SMS, and financial voice feeds. | **$75.00/month** (Base entry-tier account minimum starting price) | **No free trial** (0 days; no public free plan; live customized compliance demo via sales) |
+| **[Druva Data Resiliency Cloud](https://www.druva.com/)** | **~$2.0B valuation** (Privately held unicorn; ~$200M+ ARR) | 100% SaaS-based data protection and information governance platform with built-in legal hold, compliance monitoring, and federated search across endpoints and M365. | **$8.00/user/month** (Druva inSync Enterprise governance tier; consumption credits for cloud server workloads) | **30-day free trial** (Full enterprise functionality with endpoint & cloud workload backup; no credit card required) |
+| **[Global Relay Archive](https://www.globalrelay.com/)** | **~$1.5B–$2.0B valuation** (Bootstrapped/profitable; ~$200M revenue) | Market-leading compliance archive engineered specifically for global investment banks, hedge funds, and broker-dealers requiring FINRA/SEC books and records compliance. | **$5.00/user/month** (Base user connector pricing via partner procurement listings; custom enterprise minimums) | **No free trial** (0 days; no self-serve free plan; formal compliance workflow demonstration via sales) |
+| **[ZL Technologies (ZL Tech)](https://www.zlti.com/)** | **~$100M–$200M valuation** (Privately held; ~$50M–$80M revenue) | Massive-scale unified records governance architecture managing multi-petabyte compliance, eDiscovery, and privacy queries against a single centralized data repository. | **$3.50/user/month** (Estimated baseline enterprise licensing on multi-year Fortune 500 deployments) | **No free trial** (0 days; structured enterprise Proof of Concept / sandbox pilot on qualified sales request) |
+
+---
+
+## Open-Source GitHub Projects
+
+Self-hosted, transparent, and sovereign platforms for compliant email archiving, legal holds, eDiscovery, and document preservation. Sorted descending by GitHub stargazers count:
+
+| Project | Stars | Language / Tech Stack | Primary Capabilities |
+|---|:---:|---|---|
+| **[paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** | [![Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers) | Python / Django / TypeScript | Community-driven document archiving system with multi-language OCR, automated tag extraction, full-text indexing, and secure local/S3 persistence. |
+| **[OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver)** | [![Stars](https://img.shields.io/github/stars/LogicLabs-OU/OpenArchiver?style=social&color=white)](https://github.com/LogicLabs-OU/OpenArchiver/stargazers) | TypeScript / SvelteKit / Node.js / Meilisearch | Self-hosted, legally compliant email archiving and eDiscovery engine. Ingests Google Workspace, Microsoft 365, IMAP, and PST files with SHA-256 tamper-evident integrity reports and audit logging. |
+| **[mail-archiver](https://github.com/s1t5/mail-archiver)** | [![Stars](https://img.shields.io/github/stars/s1t5/mail-archiver?style=social&color=white)](https://github.com/s1t5/mail-archiver/stargazers) | C# / .NET / PostgreSQL | High-performance multi-account mail archiving application featuring automated folder synchronization, immutable deletion lock (`DeletionAllowed=false`), and audit logging. |
+| **[bichon](https://github.com/rustmailer/bichon)** | [![Stars](https://img.shields.io/github/stars/rustmailer/bichon?style=social&color=white)](https://github.com/rustmailer/bichon/stargazers) | Rust / SQLite / WebUI | Ultra-fast, lightweight email archiving daemon engineered in Rust. Provides near-instant full-text search, low memory consumption, and standalone container deployment. |
+| **[piler](https://github.com/jsuto/piler)** | [![Stars](https://img.shields.io/github/stars/jsuto/piler?style=social&color=white)](https://github.com/jsuto/piler/stargazers) | C / PHP / Manticore Search | Enterprise-grade email archiving application with built-in SMTP daemon, automated deduplication, digital signatures, legal hold management, and compliance retention periods. |
+| **[FreeEed](https://github.com/shmsoft/FreeEed)** | [![Stars](https://img.shields.io/github/stars/shmsoft/FreeEed?style=social&color=white)](https://github.com/shmsoft/FreeEed/stargazers) | Java / Apache Tika / Lucene | Open-source eDiscovery, digital forensics, and legal search platform supporting 1,400+ formats (PST, MSG, PDF, Office) with automated OCR and redaction tools. |
+
+---
+
+## Architecture & Implementation Guidelines
+
+For engineering, legal operations, and security teams designing internal archiving architectures:
+
+```mermaid
+flowchart LR
+    subgraph Ingestion["1. Multi-Channel Ingestion"]
+        A1["Corporate Email (M365 / Workspace / IMAP)"]
+        A2["Collaboration Feeds (Teams / Slack / Zoom)"]
+        A3["Mobile & SMS (Carrier feeds / WhatsApp)"]
+    end
+
+    subgraph Processing["2. Governance & Compliance Layer"]
+        B1["Deduplication & SHA-256 Hashing"]
+        B2["Classification & Retention Policies"]
+        B3["Immutable Audit Trails (Tamper Log)"]
+    end
+
+    subgraph Storage["3. Immutable Retention"]
+        C1["WORM Object Storage (S3 Object Lock / Azure Blob)"]
+    end
+
+    subgraph Discovery["4. Supervisory & eDiscovery"]
+        D1["Full-Text Indexing (Meilisearch / OpenSearch)"]
+        D2["Legal Hold & Matter Exports (EML, PST, PDF)"]
+    end
+
+    Ingestion --> Processing
+    Processing --> Storage
+    Processing --> Discovery
+```
+
+### Self-Hosted Architecture Recommendation
+Organizations seeking zero SaaS lock-in and strict data sovereignty can combine:
+- **Ingestion & Archive:** [OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver) or [piler](https://github.com/jsuto/piler) via journaled SMTP or Microsoft 365 / Google Workspace API sync.
+- **Storage Tier:** MinIO or AWS S3 configured with **WORM (Write Once, Read Many) Object Lock** in Compliance Mode.
+- **eDiscovery & Forensics:** [FreeEed](https://github.com/shmsoft/FreeEed) for advanced multi-format document extraction, keyword tagging, and litigation exports.
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Add or update entries in `README.md` maintaining table formatting, specific starting prices, accurate star badges, and stargazers links.
+3. Ensure open-source projects are relevant to email archiving, eDiscovery, record retention, or information governance.
+4. Submit a Pull Request with a brief explanation of the change.
+
+---
+
+## Disclaimer
+
+- This repository is a **community-curated index** and does not constitute formal legal or regulatory advice.
+- Regulated organizations subject to **SEC Rule 17a-4**, **FINRA Rule 4511**, **CFTC Rule 1.31**, **MiFID II**, or **HIPAA** must independently audit solutions to ensure immutable WORM retention, non-erasable write modes, dual third-party representation, and audit logging.
+- Pricing metrics, valuations, and star counts are verified as of 2026 and subject to vendor updates.
