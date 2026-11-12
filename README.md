@@ -60,7 +60,7 @@ Enterprise SaaS solutions sorted descending by company scale (market valuation /
 
 Self-hosted, transparent, and sovereign platforms for compliant email archiving, legal holds, eDiscovery, and document preservation. Sorted descending by GitHub stargazers count:
 
-| Project | Stars | Language / Tech Stack | Primary Capabilities |
+| Project | GitHub_Stars | Language / Tech Stack | Primary Capabilities |
 |---|:---:|---|---|
 | **[paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** 📄 | [![Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers) | Python / Django / TypeScript | Community-driven document archiving system with multi-language OCR, automated tag extraction, full-text indexing, and secure local/S3 persistence. |
 | **[OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver)** 📬 | [![Stars](https://img.shields.io/github/stars/LogicLabs-OU/OpenArchiver?style=social&color=white)](https://github.com/LogicLabs-OU/OpenArchiver/stargazers) | TypeScript / SvelteKit / Node.js / Meilisearch | Self-hosted, legally compliant email archiving and eDiscovery engine. Ingests Google Workspace, Microsoft 365, IMAP, and PST files with SHA-256 tamper-evident integrity reports and audit logging. |
@@ -114,7 +114,7 @@ Organizations seeking zero SaaS lock-in and strict data sovereignty can combine:
 ## 🤝 How to Contribute
 
 1. Fork this repository 🍴.
-2. Add or update entries in `README.md` maintaining table formatting, specific starting prices, accurate star badges, and stargazers links 📝.
+2. Add or update entries in `README.md` maintaining table formatting, specific starting prices, accurate Stars_Badges, and stargazers links 📝.
 3. Ensure open-source projects are relevant to email archiving, eDiscovery, record retention, or information governance 🔍.
 4. Submit a Pull Request with a brief explanation of the change 🚀.
 
@@ -142,4 +142,4 @@ Your sponsorship and contributions keep this repository accurate, transparent, a
 
 - This repository is a **community-curated index** and does not constitute formal legal or regulatory advice.
 - Regulated organizations subject to **SEC Rule 17a-4**, **FINRA Rule 4511**, **CFTC Rule 1.31**, **MiFID II**, or **HIPAA** must independently audit solutions to ensure immutable WORM retention, non-erasable write modes, dual third-party representation, and audit logging.
-- Pricing metrics, valuations, and star counts are verified as of 2026 and subject to vendor updates.
+- Pricing metrics, valuations, and Stars_Counts are verified as of 2026 and subject to vendor updates.
