@@ -1,6 +1,6 @@
 # Awesome-Compliant-Cloud-Information-Archiving
 
-# Top Compliant Cloud Information Archiving Ecosystem
+## Top Compliant Cloud Information Archiving Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Regulatory Compliance, Immutable Retention & Enterprise Information Governance*  
